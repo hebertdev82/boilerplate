@@ -1,0 +1,52 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  color: black;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+
+.icon:hover {
+  transition: all 0.3s;
+  color: darkgoldenrod;
+}
+
+.assinatura {
+  margin-top: 3rem;
+}
+
+.assinatura a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700; 
+}
+
+.assinatura a:hover {
+  transition: all 0.3s;
+  color: darkgoldenrod;
+}
+
+@media (max-width:768px) {
+  body {
+    text-align:center;
+  }
+
+  .title {
+    margin-top: 2rem;
+  }
+}
+
+.rowcfg {
+  padding-left: 0 !important;
+}

@@ -44,7 +44,7 @@ Row {
 
 @media (max-width:768px) {
   body {
-    text-align:center;
+    text-align:center; 
   }
 
   .title {

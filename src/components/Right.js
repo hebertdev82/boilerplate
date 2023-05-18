@@ -14,7 +14,7 @@ const Right = () => (
 
     <Container className='d-flex h-100'>
         <Row className='align-items-center'>
-            <Col className='align-self-center'>
+            <Col className='align-self-center'> 
                 <h1 className='title'>Site Em Construção</h1>
                 <p>Estamos trabalhando neste projeto.<br></br>Siga-nos nas Redes Sociais e fique por dentro das atualizações!</p>
 

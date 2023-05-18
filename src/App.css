@@ -37,6 +37,11 @@ body {
   color: darkgoldenrod;
 }
 
+Row {
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
 @media (max-width:768px) {
   body {
     text-align:center;
@@ -46,11 +51,14 @@ body {
     margin-top: 2rem;
   }
 
-  .rowcfg {
-    padding-right: 0 !important;
+  .socialMedia {
+    display: flex;
+    justify-content: center;
   }
-}
 
-.rowcfg {
-  padding-left: 0 !important;
+  .icon {
+    margin-right: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }

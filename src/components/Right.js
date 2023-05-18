@@ -18,17 +18,21 @@ const Right = () => (
                 <h1 className='title'>Site Em Construção</h1>
                 <p>Estamos trabalhando neste projeto.<br></br>Siga-nos nas Redes Sociais e fique por dentro das atualizações!</p>
 
-                <a classname='link' href='https://facebook.com/rixxercorp' target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebook} className='icon' />
-                </a>
+                    <div className='socialMedia'>
+                    
+                        <a className='link' href='https://facebook.com/rixxercorp' target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faFacebook} className='icon' />
+                        </a>
 
-                <a classname='link' href='https://instagram.com/rixxercorp' target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faInstagram} className='icon' />
-                </a>
+                        <a className='link' href='https://instagram.com/rixxercorp' target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faInstagram} className='icon' />
+                        </a>
 
-                <a classname='link' href='https://goo.gl/maps/AJYNGA6C7UB89eMa8' target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faGoogle} className='icon' />
-                </a>
+                        <a className='link' href='https://goo.gl/maps/AJYNGA6C7UB89eMa8' target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGoogle} className='icon' />
+                        </a>
+
+                    </div>
 
                 <p className='assinatura'>
                     Desenvolvido por&nbsp;
